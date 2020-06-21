@@ -64,7 +64,7 @@ header {
 }
 
 .jumbotron {
-	min-height: 600px;
+	min-height: 660px;
 	display: grid;
 	/* grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr; */
 	grid-column-gap: 40px;
@@ -118,6 +118,35 @@ header {
 	filter: brightness(150%);
 }
 
+.cta {	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 200px;
+	background-color: #f3f3f3;
+}
+
+.cta-text {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	color: #363431;
+	margin-bottom: 20px;
+}
+
+.cta-btn {
+	padding: 12px 24px;
+	display: inline-block;
+	opacity: 0.8;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: #00aec5;
+	color: white;
+}
+
+.cta-btn:hover {
+	opacity: 1;
+}
 
 footer {
 	bottom: 0px;
