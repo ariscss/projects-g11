@@ -3,37 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>B-Eleven | Progate Landing Page</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
-    <header>
-    	<nav>
-    		<img src="" alt="">
-    		<ul>
-    			<li>Home</li>
-    			<li>Login</li>
-    			<li>Register</li>
-    		</ul>
-    		<ul>
-    			<li>Icon</li>
-    			<li>Icon</li>
-    			<li>Icon</li>
-    		</ul>
-    	</nav>
+    <header class="navbar">
+        <img class="logo" src="img/logo_color.png" alt="logo">
+        <nav>
+            <ul class="nav-links">  
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
+        </nav>
+        <div class="nav-medsos">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
     </header>
 
     <main>
     	<section class="jumbotron">
-    		<div>
-    			<h2>
-    				Belajar Coding Bersama Progate
-    			</h2>
-    			<h3>Mending Jadi Solusi</h3>
-    		</div>
-    	</section>
-    	<section class="path">
+    		<div class="jumbotron-left">
+                <h2 class="jumbotron-header">
+                    Belajar Coding Bersama Progate
+                </h2>
+                <p class="jumbotron-text">Mulai perjalanan anda dari pemula hingga menjadi seorang kreator.</p>
+                <a href="#"><button class="jumbotron-cta">Gabung Belajar</button></a>
+            </div>
+    		<div class="jumbotron-right">
+                <img src="img/content.svg" alt="feature image">
+            </div>
+        </section>
+        
+    	<!-- <section class="path">
     		<div>
     			<h2>Choose Your Path</h2>
     		</div>
@@ -52,11 +58,67 @@
     		<div>
     			<h2>Siap Menjadi Solusi</h2>
     		</div>
-    	</section>
+    	</section> -->
     </main>
 
     <footer>
-    	<h2>Progate</h2>
+    	<div class="main-content">
+            <div class="left box">
+                <h2>Tentang Kita</h2>
+                <div class="content">
+                    <p>Progate adalah situs Belajar Online Pemograman berbasis website.</p>
+                    <div class="social">
+                        <a href="#"><span class="fab fa-facebook-f"></span></a>
+                        <a href="#"><span class="fab fa-twitter"></span></a>
+                        <a href="#"><span class="fab fa-instagram"></span></a>
+                        <a href="#"><span class="fab fa-youtube"></span></a>
+                    </div>                
+                </div>
+            </div>
+
+            <div class="center box">
+                <h2>Layanan</h2>
+                <div class="content">
+                    <ul>
+                        <li>Pelajaran</li>
+                        <li>Paket</li>
+                        <li>Dasbor</li>
+                        <li>Kisah Sukses</li>
+                        <li>Blog</li>
+                        <li>Bantuan</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="center box">
+                <h2>Dukungan</h2>
+                <div class="content">
+                    <ul>
+                        <li>Tentang Progate</li>
+                        <li>Ketentuan</li>
+                        <li>Kebijakan Privasi</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="right box">
+                <h2>Kontak Kami</h2>
+                <div class="content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">Email *</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="message">
+                            <div class="te">Pesan *</div>
+                            <textarea name="pesan" id="" cols="25" rows="2" required></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Kirim</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
