@@ -1,20 +1,32 @@
-@media (max-widht: 670px) {
+/* Untuk Smartphone */
+@media all and (max-width: 768px) {
     .jumbotron {
-        grid-column-gap: 10px;
-    }
-    .jumbotron-left {
-        order: 2;
-        grid-row-start: 2;
-        grid-row-end: span 12;
-    }
-    .jumbotron-right {
-        order: 1;
-        grid-row-start: 2;
-        grid-row-end: span 12;
-        margin-bottom: 20px;
+        flex-wrap: wrap-reverse;
     }
 
     .jumbotron-right img {
-        height: 100px;
+        max-width: 100%;
+        height: auto;
+        padding: 0
+    } 
+    
+    .main-content {
+        flex-wrap: wrap;
+    }
+
+    input, textarea {
+        width: 100%;
+    }
+}
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .jumbotron {
+        flex-wrap: wrap-reverse;
+    }
+
+    .jumbotron-right img {
+        padding: 50px;
+        max-width: 100%;
     }
 }
