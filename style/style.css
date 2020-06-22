@@ -6,6 +6,14 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #32325d;
+}
+
 li, a, button {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
@@ -89,14 +97,12 @@ header {
 }
 
 .jumbotron-header {
-	font-family: "Fredoka One", sans-serif;
 	font-weight: 500px;
 	font-size: 40px;
 	margin-bottom: 20px;
 }
 
 .jumbotron-text {
-	font-family: "Montserrat", sans-serif;
 	font-weight: 300;
 	font-size: 18px;
 	margin-bottom: 20px;
@@ -117,6 +123,96 @@ header {
 .jumbotron-cta:hover {
 	filter: brightness(150%);
 }
+
+/* Path, Price */
+
+section.paths, section.prices {
+	text-align: center;
+	padding: 2rem 0;
+}
+
+.paths h3, .prices h3 {
+	margin-top: 1.5rem;
+	font-weight: 600;
+	font-size: 2.1rem;
+}
+
+.paths p, .prices p {
+	color: #525f7f;
+	font-size: 1.25rem;
+	margin-top: 1.5rem;
+}
+
+/* Path Card */
+
+.paths .row {
+	width: 70%;
+	margin: 1.5rem auto;
+	overflow: auto;
+}
+
+.paths .column {
+	float: left;
+	width: 33.33%;
+	padding: 1rem;
+}
+
+.path {
+	border-radius: 25px;
+	padding: 2rem;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.path img {
+	height: 200px;
+}
+
+.path h4 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+/* Price Card */
+
+.prices .row {
+	width: 50%;
+	margin: 1.5rem auto;
+	overflow: auto;
+}
+
+.prices .column {
+	float: left;
+	width: 50%;
+	padding: 1rem;
+}
+
+.price {
+	border-radius: 10px;
+	padding: 5rem 2rem;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);	
+}
+
+.price .price-text {
+	margin-bottom: 2rem;
+}
+
+.price.price-plus {
+	color: #fff;
+	background-color: #5e72e4;
+}
+
+.price-plus h3 {
+	color: #fff;
+}
+
+.price-plus p {
+	color: #fff;
+	font-weight: 600;
+}
+
+
+
+/* CTA */
 
 .cta {	
 	display: flex;
@@ -147,6 +243,8 @@ header {
 .cta-btn:hover {
 	opacity: 1;
 }
+
+/* Footer */
 
 footer {
 	bottom: 0px;
