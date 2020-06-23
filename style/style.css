@@ -91,7 +91,8 @@ header {
 }
 
 .jumbotron-right img {
-	max-height: 400px;
+	height: 400px;
+	max-width: 100%;
 	
 }
 
@@ -112,15 +113,15 @@ header {
 	font-size: 18px;
 	text-decoration: none;
 	transition: 0.3s all ease;
-	padding: 9px 20px;
-	border: none;
+	padding: 1rem 1.5rem;
 	border-radius: 50px;
-	background-color: white;
-	border-style: solid;
+	background-color: #5e72e4;
+	border: 1px solid #5e72e4;
+	color: #fff;
 }
 
 .jumbotron-cta:hover {
-	filter: brightness(150%);
+	background-color: #3d55df;
 }
 
 /* Path, Price */
@@ -130,13 +131,13 @@ section.paths, section.prices {
 	padding: 2rem 0;
 }
 
-.paths h3, .prices h3 {
+.paths h3, .prices h3, .cta h3 {
 	margin-top: 1.5rem;
 	font-weight: 600;
 	font-size: 2.1rem;
 }
 
-.paths p, .prices p {
+.paths p, .prices p, .cta p {
 	color: #525f7f;
 	font-size: 1.25rem;
 	margin-top: 1.5rem;
@@ -238,8 +239,8 @@ section.paths, section.prices {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	height: 200px;
 	background-color: #f3f3f3;
+	padding: 5rem;
 }
 
 .cta-text {
@@ -250,17 +251,19 @@ section.paths, section.prices {
 }
 
 .cta-btn {
-	padding: 12px 24px;
+	padding: 1rem 1.5rem;
 	display: inline-block;
-	opacity: 0.8;
 	border-radius: 4px;
 	cursor: pointer;
-	background-color: #00aec5;
+	background-color: #5e72e4;
+	border: 1px solid #5e72e4;
 	color: white;
+	transition: 0.3s;
+	margin-top: 1.5rem;
 }
 
 .cta-btn:hover {
-	opacity: 1;
+	background-color: #3d55df;
 }
 
 /* Footer */

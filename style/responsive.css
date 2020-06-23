@@ -2,15 +2,22 @@
 @media all and (max-width: 1000px) {
     .jumbotron {
         flex-wrap: wrap-reverse;
+        text-align: center;
     }
 
     .jumbotron-right img {
-        padding: 50px;
-        max-width: 100%;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 5rem;
+    }
+
+    .jumbotron-header {
+        margin-top: 5rem;
+        font-size: 1.7rem;
     }
 
     /*Path and Price*/
-    .paths .container > p, .prices .container > p {
+    .paths .container > p, .prices .container > p, .cta > p {
         padding-top: 1.5rem;
         width: 70%;
         margin: 0 auto;
