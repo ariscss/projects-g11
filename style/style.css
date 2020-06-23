@@ -157,6 +157,7 @@ section.paths, section.prices {
 }
 
 .path {
+	max-width: 20rem;
 	border-radius: 25px;
 	padding: 2rem;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -170,7 +171,8 @@ section.paths, section.prices {
 
 .path img {
 	height: 200px;
-	width: 200px;
+	max-width: 200px;
+	width: 100%;
 }
 
 .path h4 {
@@ -181,7 +183,7 @@ section.paths, section.prices {
 /* Price Card */
 
 .prices .row {
-	width: 50%;
+	width: 100%;
 	margin: 1.5rem auto;
 	overflow: auto;
 }
@@ -193,6 +195,7 @@ section.paths, section.prices {
 }
 
 .price {
+	max-width: 23rem;
 	border-radius: 10px;
 	padding: 5rem 2rem;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -206,6 +209,10 @@ section.paths, section.prices {
 
 .price .price-text {
 	margin-bottom: 2rem;
+}
+
+.price.price-free {
+	margin-left: auto;
 }
 
 .price.price-plus {

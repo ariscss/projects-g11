@@ -1,3 +1,40 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .jumbotron {
+        flex-wrap: wrap-reverse;
+    }
+
+    .jumbotron-right img {
+        padding: 50px;
+        max-width: 100%;
+    }
+
+    /*Path and Price*/
+    .paths > p, .prices > p {
+        background-color: blue;
+    }
+
+    /*Path*/
+    .paths .column {
+        width: 50%;
+    }
+
+
+    /*Price*/
+
+    .prices .row {
+        width: 80%;
+    }
+
+    .prices .column {
+        width: 100%;
+    }
+
+    .price {
+        margin: 0 auto;
+    }
+}
+
 /* Untuk Smartphone */
 @media all and (max-width: 768px) {
     .jumbotron {
@@ -25,16 +62,13 @@
     .contact-submit {
         width: 100%;
     }
-}
 
-/* Untuk Tablet */
-@media all and (max-width: 1000px) {
-    .jumbotron {
-        flex-wrap: wrap-reverse;
+    /*Path*/
+    .paths .column {
+        width: 100%;
     }
 
-    .jumbotron-right img {
-        padding: 50px;
-        max-width: 100%;
+    .path {
+        margin: 0 auto;
     }
 }
