@@ -145,7 +145,7 @@ section.paths, section.prices {
 /* Path Card */
 
 .paths .row {
-	width: 70%;
+	max-width: 1170px;
 	margin: 1.5rem auto;
 	overflow: auto;
 }

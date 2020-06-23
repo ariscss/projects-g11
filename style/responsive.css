@@ -10,13 +10,24 @@
     }
 
     /*Path and Price*/
-    .paths > p, .prices > p {
-        background-color: blue;
+    .paths .container > p, .prices .container > p {
+        padding-top: 1.5rem;
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
     }
 
     /*Path*/
+    .paths .row {
+        max-width: 768px;
+    }
+
     .paths .column {
         width: 50%;
+    }
+
+    .path {
+        margin: 0 auto;
     }
 
 
