@@ -73,16 +73,14 @@ header {
 
 .jumbotron {
 	min-height: 660px;
-	display: grid;
-	/* grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr; */
-	grid-column-gap: 40px;
+	display: flex;
+	justify-content: center;
 	align-items: center;
 	padding: 50px;
 }
 
 .jumbotron-left {
-	grid-column-start: 3;
-	grid-row-end: span 5;
+	margin: 0 50px;
 }
 
 .jumbotron-right {
@@ -93,7 +91,8 @@ header {
 }
 
 .jumbotron-right img {
-	height: 400px;
+	max-height: 400px;
+	
 }
 
 .jumbotron-header {
@@ -276,6 +275,10 @@ footer li {
 
 .main-content {
 	display: flex;
+}
+
+.main-content h2 {
+	color: white;
 }
 
 .main-content .box {
