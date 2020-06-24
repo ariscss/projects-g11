@@ -5,6 +5,10 @@
         text-align: center;
     }
 
+    .jumbotron-left {
+        padding: 0;
+    }
+
     .jumbotron-right img {
         width: 70%;
         margin: 0 auto;

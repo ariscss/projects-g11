@@ -14,6 +14,12 @@ h1, h2, h3, h4, h5, h6 {
 	color: #32325d;
 }
 
+button {
+	font-family: "Montserrat", sans-serif;
+	margin-top: 1rem;
+	font-weight: 600;	
+}
+
 header {
 	position: fixed;
 	display: flex;
@@ -85,7 +91,7 @@ header {
 .jumbotron-right img {
 	height: 400px;
 	max-width: 100%;
-	
+	filter: drop-shadow(0px 4px 8px rgba(0,0,0,0.4));
 }
 
 .jumbotron-header {
@@ -264,7 +270,6 @@ section.paths, section.prices {
 footer {
 	bottom: 0px;
 	width: 100%;
-	padding: 5rem;
 	background-color: #040b2e;
 	color: white;
 	font-family: "Montserrat", sans-serif;
