@@ -14,24 +14,15 @@ h1, h2, h3, h4, h5, h6 {
 	color: #32325d;
 }
 
-li, a, button {
-	font-family: "Montserrat", sans-serif;
-	font-weight: 500;
-	font-size: 16px;
-	color: #06a2d6;
-	text-decoration: none;
-}
-
 header {
 	position: fixed;
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 15px 10%;
+	justify-content: space-around;
+	padding: 1rem;
 }
 
 .logo {
-	width: 30px;
+	width: 50px;
 	cursor: pointer;
 }
 
@@ -41,10 +32,15 @@ header {
 
 .nav-links li {
 	display: inline-block;
-	padding: 0px 20px;
+	padding: 1rem;
 }
 
 .nav-links li a {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	text-decoration: none;
+	font-size: 1rem;
+	color: #32325d;
 	transition: all 0.3s ease 0s;
 }
 
@@ -57,18 +53,14 @@ header {
 	transition: all 0.3s ease 0s;
 }
 
-.nav-medsos {
-	float: right;
-}
-
 .nav-medsos i {
-	padding: 0px 5px;
+	color: #32325d;
+	padding: 1rem;
 }
 
 .navbar {
 	width: 100%;
-	background-color: #fff !important;
-	box-shadow: 0 4px 18px 0 rgba(0,0,0,.12), 0 7px 10px -5px rgba(0,0,0,.15);
+	background-color: #fff;
 }
 
 .jumbotron {
@@ -80,7 +72,7 @@ header {
 }
 
 .jumbotron-left {
-	margin: 0 50px;
+	padding: 5rem;
 }
 
 .jumbotron-right {
@@ -103,9 +95,10 @@ header {
 }
 
 .jumbotron-text {
-	font-weight: 300;
-	font-size: 18px;
-	margin-bottom: 20px;
+	font-weight: 400;
+	color: #525f7f;
+	font-size: 1.2rem;
+	margin: 1rem 0;
 }
 
 .jumbotron-cta {
@@ -271,6 +264,7 @@ section.paths, section.prices {
 footer {
 	bottom: 0px;
 	width: 100%;
+	padding: 5rem;
 	background-color: #040b2e;
 	color: white;
 	font-family: "Montserrat", sans-serif;
